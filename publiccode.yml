@@ -1,0 +1,84 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: OPEN 2.0
+categories:
+  - web-collaboration
+  - email-management
+  - communications
+  - collaboration
+  - contact-management
+  - survey
+  - service-desk
+  - seo
+  - social-media-management
+description:
+  it:
+    apiDocumentation: 'http://docs.open2.0.appdemoweb.org'
+    documentation: 'https://www.open2.0.regione.lombardia.it'
+    features:
+      - content management system
+      - users privacy management
+      - multichannel notification platform
+      - profiled and personalised content platform	
+      - newsletter
+      - news features
+      - surveys and rating components
+      - multimedia (video, youtube playlist, image) components
+      - file sharing
+      - data analysis component
+      - digital identity
+      - customized notification
+    genericName: Comunicazioni utente personalizzate
+    longDescription: |
+      Gestione e invio di comunicazioni personalizzate, in una logica multicanale e multiservizio, per affiancare il lavoro quotidiano di diffusione di contenuti di una redazione. 
+
+      L'applicativo adotta a tale scopo un'architettura logica e una piattaforma di **Omnichannel Customer Experience** che, mediante un portale pubblico denominato Lombardia Informa, consente di:
+
+      - raccogliere in maniera centralizzata i dati di contatto dei cittadini e delle tematiche di loro interesse;
+      - creare e gestire azioni di comunicazione personalizzate e multicanale offrendo una esperienza di navigazione unica e coerente;
+      - integrare i sistemi deputati all'invio delle comunicazioni, implementando un'azione di armonizzazione e centralizzazione di dati provenienti da canali eterogenei;
+      - creare strumenti integrati di comunicazione, quali landing page e sondaggi;
+      - arricchire i contenuti con elementi multimediali (slideshow immagini, video) e documentali (allegati .pdf)
+      - gestione e profilazione utenze come da GDPR
+    shortDescription: |-
+      Servizio che consente di informare proattivamente gli utenti rispetto ai bisogni espressi
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: true
+    lineeGuidaDesign: true
+    misureMinimeSicurezza: true
+    modelloInteroperabilita: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: true
+    pagopa: false
+    spid: true
+  riuso:
+    codiceIPA: r_lombar
+landingURL: 'https://github.com/RegioneLombardia/LombardiaInforma'
+legal:
+  license: GPL-3.0-only
+localisation:
+  availableLanguages:
+    - it
+    - en
+  localisationReady: true
+logo: |-
+  https://raw.githubusercontent.com/RegioneLombardia/LombardiaInforma/master/frontend/web/img/logo-li.png
+maintenance:
+  contacts:
+    - name: Corrado Schiavoni
+  type: community
+name: Preference Center
+platforms:
+  - web
+releaseDate: '2021-11-15'
+softwareType: standalone/web
+url: 'https://github.com/RegioneLombardia/LombardiaInforma'
+usedBy:
+  - Regione Lombardia
